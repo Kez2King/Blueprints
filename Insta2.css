@@ -1,0 +1,164 @@
+body{
+    /* border: 2px black solid; */
+    height: 800px;
+    /* background-color: black; */
+    color: black;
+    /* color: white; */
+    /* overflow: scroll; */
+}
+header{
+    /* border-bottom: 2px black solid; */
+    background: linear-gradient(45deg, #515bd4, #8134af,#dd2a7b,#feda77,#f58529);
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header img{
+    height: 90px;
+    width: 200px;
+}
+main{
+    border-right: black solid;
+    /* border-right: 2px solid white; */
+    border-left: 2px black solid;
+    /* border-left: 2px solid white; */
+    float: right;
+    height: 89.1%;
+    width: 70%;
+    overflow: scroll;
+}
+main #story{
+    /* border-bottom: 2px black solid; */
+    overflow-y: scroll;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    height: 15%;
+}
+.space{
+    margin-left: 2%;
+    position: relative;
+    top: 5%;
+    /* border: red solid; */
+    height: 90%;
+    width: 1250px;
+}
+.img1{
+    border: 2px solid black;
+    /* border: 2px solid white; */
+    background-image: url(https://lh6.googleusercontent.com/proxy/gLq2durgR0k_WeL99Mzwb627og2D8Q7-nkdeRPeMKt3czAILOlhMuW49uka79pAY5B5ALLj1uYOxhW8N0mKYTyPSM_e2g_wgQ-zLQF04Tl5eJlVzNZ6NaINInBaX=w1200-h630-p-k-no-nu);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-left: 2%;
+    height: 60%;
+    width: 70%;
+    position: relative;
+    left: 8px;
+}
+.space p{
+    position: relative;
+    bottom: 10px;
+}
+#sidebar{
+    overflow-y: scroll;
+    float: right;
+    height: 87%;
+    width: 15%;
+}
+#sidebar li{
+    list-style-type: none;
+    position: relative;
+    right: 11px;
+    border: 2px black solid;
+    /* border: 2px white solid; */
+    margin-top: 2%;
+    width: 90%;
+    height: 15%;
+    border-radius: 40%;
+}
+#recFollow{
+    overflow: scroll;
+    height: 61%;
+}
+.Messages{
+    border-bottom: 2px black solid;
+    /* border-bottom: 2px white solid; */
+    width: 14%;
+    height: 60%;
+    overflow: scroll;
+}
+.Messages li{
+    position: relative;
+    right: 15px;
+    list-style: none;
+    border: 2px black solid;
+    /* border: solid white; */
+    border-radius: 45%;
+    margin-top: 5%;
+    height: 15%;
+    width: 90%;
+}
+.Messages ul{
+    height: 70%;
+}
+nav{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+fieldset{
+    border-radius: 25px;
+    width: 70%;
+}
+#sidebar ul{
+    height: 65%;
+    /* border-bottom: 2px black solid; */
+}
+.Settings{
+    /* border-bottom: 2px black solid;   */
+    float: right;
+    position: relative;
+    /* right: 20px; */
+}
+.Settings div{
+    border: 2px black solid;
+    /* border: 2px white solid; */
+    display: flex;
+    align-items: center;
+    /* margin-top: 1%; */
+    width: 200px;
+    height: 50px;
+}
+#posts{
+    border: 2px black solid;
+    margin-top: 3%;
+    width: 80%;
+    /* overflow: scroll; */
+    margin-left: 10%;
+}
+.feed{
+    /* border: 2px purple solid; */
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.Photo{
+    /* border: 2px cyan solid; */
+    margin-top: 5%;
+    height: 500px;
+    background-image: url(https://i.pinimg.com/originals/bc/0d/db/bc0ddbe35e8e9bad28849981ce493e7d.jpg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.caption{
+    margin-top: 2%;
+    border-top: solid black;
+    /* border-top: solid white; */
+    border-bottom: solid black;
+    /* border-bottom: solid white; */
+}
